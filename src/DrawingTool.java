@@ -8,7 +8,6 @@ import java.util.Random;
 
 public class DrawingTool extends JPanel implements  MouseListener, MouseMotionListener
 {
-
      @Override
     public void mouseClicked(MouseEvent e) {}
 
