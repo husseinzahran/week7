@@ -1,16 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
-public class Main
-{
-    public static PaintApplication paint;
-
+/**
+ *
+ * @author Administrator
+ */
+public class Main {
     /**
-     * Application starting point, creates a new instance of the PaintApplication class
-     * @param args String arguments
+     * @param args the command line arguments
      */
-    public static void main(String args[])
-    {
-        paint = new PaintApplication();
+    public static void main(String[] args) {
+        //  new DrawingShape().setVisible(true);
+           new GlobalDrawingApp().setVisible(true);
     }
-
-
+    
 }

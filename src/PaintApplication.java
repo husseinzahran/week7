@@ -1,4 +1,6 @@
 
+
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -14,7 +16,7 @@ public class PaintApplication extends JFrame
      **************************************************************************************************************/
     public PaintApplication()
     {
-        super("Leonardo Da Vinci");  //overriding JFrame's title
+        super("Drawing Tool");  //overriding JFrame's title
 
 
         drawingPanel = new DrawingTool();                              //create drawing panel

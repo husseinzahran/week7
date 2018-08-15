@@ -1,4 +1,8 @@
 
+
+
+
+
 //Class which serves for creating the appropriate tool class
 public class PaletteCreator
 {
